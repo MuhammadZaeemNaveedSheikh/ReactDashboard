@@ -72,15 +72,6 @@ function Dashboard() {
     lastname: "",
   });
 
-  const handleAddData = async () => {
-    await set(push(ref(db, "data")), {
-      ...addData,
-    });
-    setAddData({
-      firstname: "",
-      lastname: "",
-    });
-  };
   const handleEditData = async () => {
     await set(ref(db, `data/${editData.key}`), {
       ...editData,
@@ -93,6 +84,15 @@ function Dashboard() {
 
   const handleDelete = async (key) => {
     await remove(ref(db, `data/${key}`));
+  };
+  const handleAddData = async () => {
+    await set(push(ref(db, "data")), {
+      ...addData,
+    });
+    setAddData({
+      firstname: "",
+      lastname: "",
+    });
   };
 
   React.useEffect(() => {
