@@ -49,6 +49,7 @@ import OrdersOverview from "layouts/dashboard/components/OrdersOverview";
 // Firebase
 import { initializeApp } from "firebase/app";
 import { getDatabase, ref, set, push, onValue, remove } from "firebase/database";
+import sample from "./data/sample.json";
 
 const firebaseConfig = {
   apiKey: "AIzaSyDukHNZg_WM0B7N7NROK0EleAh2hOzV0JI",
@@ -200,6 +201,64 @@ function Dashboard() {
               </Button>
             </Grid>
           </Grid>
+        </Grid>
+      </Grid>
+      <Grid container mt={3}>
+        <Grid item md={8}>
+          <TableContainer component={Paper}>
+            <Table aria-label="simple table">
+              <TableHead sx={{ display: "contents" }}>
+                <TableRow>
+                  <TableCell>Container Number</TableCell>
+                  <TableCell>Mither Vessel IMO</TableCell>
+                  <TableCell>Status</TableCell>
+                  <TableCell>Customs Clearance Date</TableCell>
+                  <TableCell>Rail Terminal FIrms Code</TableCell>
+                  <TableCell>Gnosis Estimated Yad Storage Amount</TableCell>
+                  <TableCell>Empty Returned Date</TableCell>
+                  <TableCell>Delivered Date</TableCell>
+                  <TableCell>Rail Discharged Date</TableCell>
+                  <TableCell>Updated Date</TableCell>
+                  <TableCell>Rail Destination</TableCell>
+                  <TableCell>Created By</TableCell>
+                  <TableCell>Container Journey Start Key</TableCell>
+                  <TableCell>Current Vessel</TableCell>
+                  <TableCell>Carrier Realese Date</TableCell>
+                  <TableCell>First Vessel IMO</TableCell>
+                  <TableCell>Rail ETA Date</TableCell>
+                  <TableCell>Gnosis Rail ETA Date</TableCell>
+                  <TableCell>Vessel ATD Date</TableCell>
+                  <TableCell>Early Receive Date</TableCell>
+                </TableRow>
+              </TableHead>
+              <TableBody>
+                {sample.map((row) => (
+                  <TableRow key={row.container_number}>
+                    <TableCell>{row.container_number}</TableCell>
+                    <TableCell>{row.mother_vessel_imo}</TableCell>
+                    <TableCell>{row.status}</TableCell>
+                    <TableCell>{row.customs_clearance_dt}</TableCell>
+                    <TableCell>{row.rail_terminal_firms_code}</TableCell>
+                    <TableCell>{row.gnosis_estimated_yard_storage_amount}</TableCell>
+                    <TableCell>{row.empty_returned_dt}</TableCell>
+                    <TableCell>{row.delivered_dt}</TableCell>
+                    <TableCell>{row.rail_discharged_dt}</TableCell>
+                    <TableCell>{row.updated_dt}</TableCell>
+                    <TableCell>{row.rail_dest}</TableCell>
+                    <TableCell>{row.created_by}</TableCell>
+                    <TableCell>{row.container_journey_start_key}</TableCell>
+                    <TableCell>{row.current_vessel}</TableCell>
+                    <TableCell>{row.carrier_release_dt}</TableCell>
+                    <TableCell>{row.first_vessel_imo}</TableCell>
+                    <TableCell>{row.rail_eta_dt}</TableCell>
+                    <TableCell>{row.gnosis_rail_eta_dt}</TableCell>
+                    <TableCell>{row.vessel_atd_dt}</TableCell>
+                    <TableCell>{row.early_receive_dt}</TableCell>
+                  </TableRow>
+                ))}
+              </TableBody>
+            </Table>
+          </TableContainer>
         </Grid>
       </Grid>
       <MDBox py={3}>

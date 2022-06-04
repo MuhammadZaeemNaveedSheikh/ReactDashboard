@@ -1,0 +1,166 @@
+[
+    {
+        "container_number": "CAIU4134566",
+        "mother_vessel_imo": "9321237",
+        "status": null,
+        "customs_clearance_dt": null,
+        "rail_terminal_firms_code": null,
+        "gnosis_estimated_yard_storage_amount": null,
+        "empty_returned_dt": null,
+        "delivered_dt": null,
+        "rail_discharged_dt": null,
+        "updated_dt": "2022-05-24T05:42:54",
+        "rail_dest": null,
+        "created_by": "temp_loop_active",
+        "container_journey_start_key": "CAIU4134566_ONEYHKGC39054307",
+        "current_vessel": "MOL CREATION",
+        "carrier_release_dt": null,
+        "first_vessel_imo": "9321237",
+        "rail_eta_dt": null,
+        "gnosis_rail_eta_dt": null,
+        "vessel_atd_dt": "2022-05-14T16:00:00",
+        "early_receive_dt": null,
+        "gnosis_vessel_eta_dt": "2022-06-02T04:00:00",
+        "rail_out_gate_dt": null,
+        "hbl": null,
+        "references": [
+            "VWSC"
+        ],
+        "created_dt": "2022-05-21T08:40:25",
+        "customer_tag": null,
+        "out_gate_dt": null,
+        "gnosis_estimated_last_free_demurrage_day_dt": null,
+        "weight": "5,107.580",
+        "pol_terminal_firms_code": null,
+        "vessel_etd_dt": null,
+        "final_dest_city": "Los Angeles, US",
+        "port_eta_dt": "2022-06-02T04:00:00",
+        "mbl": {
+            "id_mbl": 87719,
+            "created_dt": "2022-05-21T08:40:25",
+            "house_bill": null,
+            "updated_dt": "2022-05-21T08:40:25",
+            "booking": null,
+            "created_by": "marlo@%",
+            "booking_number": null,
+            "mbl_number": "ONEYHKGC39054307",
+            "updated_by": "marlo@%"
+        },
+        "last_free_detention_day_dt": null,
+        "vessel_in_range_dt": null,
+        "raw_milestones": [
+            {
+                "flag": "A",
+                "event_dt": "2022-04-26 16:12:00",
+                "event_desc": "Empty Container Release to Shipper",
+                "event_locode": "CNYTN"
+            },
+            {
+                "flag": "A",
+                "event_dt": "2022-04-27 15:52:00",
+                "event_desc": "Gate In to Outbound Terminal",
+                "event_locode": "CNYTN"
+            },
+            {
+                "flag": "A",
+                "event_dt": "2022-05-14 04:23:00",
+                "event_desc": "Loaded on 'MOL CREATION 083E' at Port of Loading",
+                "event_locode": "CNYTN"
+            },
+            {
+                "flag": "A",
+                "event_dt": "2022-05-14 16:00:00",
+                "event_desc": "'MOL CREATION 083E' Departure from Port of Loading",
+                "event_locode": "CNYTN"
+            },
+            {
+                "flag": "E",
+                "event_dt": "2022-06-02 04:00:00",
+                "event_desc": "'MOL CREATION 083E' Arrival at Port of Discharging",
+                "event_locode": "USLAX"
+            },
+            {
+                "flag": "E",
+                "event_dt": "2022-06-02 06:00:00",
+                "event_desc": "'MOL CREATION 083E' POD Berthing Destination",
+                "event_locode": "USLAX"
+            },
+            {
+                "flag": "E",
+                "event_dt": "2022-06-02 07:30:00",
+                "event_desc": "Unloaded from 'MOL CREATION 083E' at Port of Discharging",
+                "event_locode": "USLAX"
+            },
+            {
+                "flag": "E",
+                "event_dt": "2022-06-02 12:00:00",
+                "event_desc": "Gate Out from Inbound Terminal for Delivery to Consignee (or Port Shuttle)",
+                "event_locode": "USLAX"
+            },
+            {
+                "flag": "E",
+                "event_dt": "2022-06-02 18:00:00",
+                "event_desc": "Empty Container Returned from Customer",
+                "event_locode": "USLAX"
+            }
+        ],
+        "gnosis_estimated_detention_amount_custom": null,
+        "rail_ata_dt": null,
+        "last_ssl_updated_dt": "2022-05-24T05:11:09",
+        "pod_terminal_name": "TraPac Terminal",
+        "tracking_id": null,
+        "vessel_in_berth_range_dt": null,
+        "pod_terminal_firms_code": "Y258",
+        "pickup_appointment_dt": null,
+        "length": "40",
+        "location_at_terminal": null,
+        "cut_off_dt": null,
+        "holds": null,
+        "status_dt": null,
+        "gnosis_estimated_last_free_detention_day_custom_dt": null,
+        "knack_processed_status": true,
+        "id_container": 153015,
+        "discharged_dt": null,
+        "rail_terminal": null,
+        "gnosis_estimated_last_free_demurrage_day_custom_dt": null,
+        "pod_locode": "USLAX",
+        "available_for_pickup": null,
+        "gnosis_estimated_chassis_charge_amount": null,
+        "is_container_hot": false,
+        "mother_voyage": "0083E",
+        "vessel_eta_dt_history": [
+            {
+                "vessel_eta_dt": "2022-06-02 06:00:00",
+                "vessel_eta_dt_date_changed": "2022-05-21 08:40:25"
+            }
+        ],
+        "fields_changed": null,
+        "gnosis_estimated_last_free_detention_day_dt": null,
+        "current_vessel_imo": "9321237",
+        "pol_terminal_name": null,
+        "gnosis_estimated_discharge_dt": "2022-06-07T04:30:00",
+        "in_gate_dt": "2022-04-27T15:52:00",
+        "chassis_number": null,
+        "pol_locode": "CNYTN",
+        "rail_departed_dt": null,
+        "container_type": "DR",
+        "gnosis_estimated_demurrage_amount": null,
+        "gnosis_estimated_detention_amount": null,
+        "loaded_on_vessel_dt": "2022-05-14T04:23:00",
+        "gnosis_estimated_demurrage_amount_custom": null,
+        "final_dest_locode": "USLAX",
+        "first_vessel": "MOL CREATION",
+        "pod_city": "Los Angeles, US",
+        "vessel_ata_dt": null,
+        "updated_by": "marlo@%",
+        "pol_city": "Yantian Pt, CN",
+        "last_free_demurrage_day_dt": null,
+        "mother_vessel": "MOL CREATION",
+        "detention_amount": null,
+        "seal_no": "CNBX03888",
+        "vessel_eta_dt": "2022-06-02T06:00:00",
+        "demurrage_amount": null,
+        "empty_out_dt": "2022-04-26T16:12:00",
+        "journey_end_dt": null
+    }
+]
